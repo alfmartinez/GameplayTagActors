@@ -9,8 +9,6 @@ UE_DEFINE_GAMEPLAY_TAG_STATIC(TAG_TEST_OTHER, "Test.Other");
 BEGIN_DEFINE_SPEC(
     FTaggedActorSpec, "Plugins.GameplayTagActors",
     EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter)
-    TSharedPtr<ATaggedActor> TaggedActor;
-    FGameplayTagContainer Tags;
 END_DEFINE_SPEC(FTaggedActorSpec)
 
 void FTaggedActorSpec::Define()
